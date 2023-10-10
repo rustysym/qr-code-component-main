@@ -18,7 +18,7 @@ body {
 }
 img {
   max-width: 100%;
-  border-radius: 0.7rem;
+  border-radius: 1rem;
 }
 .container {
   display: flex;
@@ -28,7 +28,12 @@ img {
 .card {
   width: 300px;
   background-color: white;
-  border-radius: 0.7rem; 
+  border-radius: 1.3rem; 
+  box-shadow:
+  2.9px 4.5px 5.3px rgba(0, 0, 0, 0.04),
+  9.6px 15.2px 17.9px rgba(0, 0, 0, 0.06),
+  43px 68px 80px rgba(0, 0, 0, 0.1)
+;
 }
 .card-container {
   text-align: center;
